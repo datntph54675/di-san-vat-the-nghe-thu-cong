@@ -1,0 +1,8 @@
+{
+  "name": "Di Sản Phi Vật Thể Đông Nam Bộ - Nghề Thủ Công",
+  "description": "Thư viện bảo tàng số di sản văn hoá phi vật thể nghề thủ công truyền thống vùng văn hoá Đông Nam Bộ (Gốm Biên Hòa, Sơn mài Tương Bình Hiệp, Thổ cẩm S'tiêng, Đan lát Chơ Ro, Gỗ mỹ nghệ)",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

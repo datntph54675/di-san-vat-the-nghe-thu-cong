@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --color-do-son: #9F3035;
+    --color-do-sam: #5E2027;
+    --color-den-than: #211E1B;
+    --color-vang-dong: #B58A4A;
+    --color-nau-dat: #986C4C;
+    --color-trang-nga: #F5F0E6;
+    --color-cham: #293D4B;
+  }
+
+  body {
+    font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-heritage-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  code, pre, .font-heritage-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Heritage Utility Patterns */
+.bg-heritage-ivory {
+  background-color: #F5F0E6;
+}
+
+.bg-heritage-charcoal {
+  background-color: #211E1B;
+}
+
+.bg-heritage-crimson {
+  background-color: #9F3035;
+}
+
+.bg-heritage-deepcrimson {
+  background-color: #5E2027;
+}
+
+.bg-heritage-gold {
+  background-color: #B58A4A;
+}
+
+.bg-heritage-earth {
+  background-color: #986C4C;
+}
+
+.bg-heritage-indigo {
+  background-color: #293D4B;
+}
+
+.text-heritage-crimson {
+  color: #9F3035;
+}
+
+.text-heritage-deepcrimson {
+  color: #5E2027;
+}
+
+.text-heritage-gold {
+  color: #B58A4A;
+}
+
+.text-heritage-charcoal {
+  color: #211E1B;
+}
+
+.text-heritage-indigo {
+  color: #293D4B;
+}
+
+.border-heritage-gold {
+  border-color: #B58A4A;
+}
+
+.border-heritage-earth {
+  border-color: #986C4C;
+}
+
+/* Subtle museum texture & drop cap */
+.drop-cap::first-letter {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  float: left;
+  line-height: 0.8;
+  margin-right: 0.75rem;
+  margin-top: 0.25rem;
+  color: #9F3035;
+}
+
+/* Tabular figures for data tables and year records */
+.tabular-data {
+  font-variant-numeric: tabular-nums;
+}
